@@ -1,0 +1,13 @@
+namespace: openshift-storage
+kind: Kustomization
+commonAnnotations:
+  version: 1.0.0
+
+resources:
+- 1-eo-ns.yaml
+- 2-olo-ns.yaml
+- 3-eo-og.yaml
+- 4-eo-sub.yaml
+- 5-olo-og.yaml
+- 6-olo-sub.yaml
+- 7-olo-instance.yaml
